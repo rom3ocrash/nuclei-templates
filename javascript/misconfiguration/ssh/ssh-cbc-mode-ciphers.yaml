@@ -3,7 +3,7 @@ id: ssh-cbc-mode-ciphers
 info:
   name: SSH Server CBC Mode Ciphers Enabled
   author: pussycat0x
-  severity: low
+  severity: info
   description: |
     "SSH Server CBC Mode Ciphers Enabled" signifies that the SSH server supports Cipher Block Chaining (CBC) mode ciphers, which are known for potential vulnerabilities. This configuration poses a security risk, and it's recommended to disable CBC ciphers in favor of more secure alternatives for enhanced protection during data transmission.
   reference:

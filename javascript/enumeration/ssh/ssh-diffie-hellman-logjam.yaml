@@ -3,7 +3,7 @@ id: ssh-diffie-hellman-logjam
 info:
   name: SSH Diffie-Hellman Modulus <= 1024 Bits
   author: pussycat0x
-  severity: low
+  severity: info
   description: |
     SSH weak algorithms are outdated cryptographic methods that pose security risks. Identifying and disabling these vulnerable algorithms is crucial for enhancing the overall security of SSH connections.
   reference:

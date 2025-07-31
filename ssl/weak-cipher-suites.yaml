@@ -3,7 +3,7 @@ id: weak-cipher-suites
 info:
   name: Weak Cipher Suites Detection
   author: pussycat0x
-  severity: low
+  severity: info
   description: A weak cipher is defined as an encryption/decryption algorithm that uses a key of insufficient length. Using an insufficient length for a key in an encryption/decryption algorithm opens up the possibility (or probability) that the encryption scheme could be broken.
   remediation: |
     Ensure that the server is configured to use strong cipher suites. Disable weak ciphers and protocols (such as TLS 1.0 and TLS 1.1) that are no longer considered secure.

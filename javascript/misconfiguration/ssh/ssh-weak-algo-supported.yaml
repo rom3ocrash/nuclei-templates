@@ -3,7 +3,7 @@ id: ssh-weak-algo-supported
 info:
   name: SSH Weak Algorithms Supported
   author: pussycat0x
-  severity: medium
+  severity: info
   description: |
     SSH weak algorithms are outdated cryptographic methods that pose security risks. Identifying and disabling these vulnerable algorithms is crucial for enhancing the overall security of SSH connections.
   reference:
