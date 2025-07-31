@@ -3,7 +3,7 @@ id: self-signed-ssl
 info:
   name: Self Signed SSL Certificate
   author: righettod,pdteam
-  severity: low
+  severity: info
   description: |
     self-signed certificates are public key certificates that are not issued by a certificate authority. These self-signed
     certificates are easy to make and do not cost money. However, they do not provide any trust value.

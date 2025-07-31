@@ -5,7 +5,7 @@ info:
   remediation: |
     Ensure that the SSL certificate is correctly configured with the appropriate common name (CN) that matches the domain name of the website. This can be done by obtaining a new certificate from a trusted Certificate Authority (CA) that matches the domain.
   author: pdteam
-  severity: low
+  severity: info
   description: |
     Mismatched certificates occur when there is inconsistency between the common name to which the certificate was issued and the domain name in the URL. This issue impacts the trust value of the affected website.
   reference:
